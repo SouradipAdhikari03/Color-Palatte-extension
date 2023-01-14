@@ -1,0 +1,61 @@
+body {
+    background: rgb(145, 213, 255);
+}
+
+.container {
+    /* border-radius: 30px; */
+    border: 3px dotted white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.ChangeColorBtn {
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: rgb(60, 22, 184);
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    transition: all 0.3s linear;
+}
+
+.ChangeColorBtn:hover {
+    background: white;
+    color: rgb(60, 22, 184);
+    transform: scale(1.05);
+    border-style: dashed;
+    border-color: rgb(111, 121, 255);
+}
+
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-top: 20px; */
+    font-weight: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.colorValue {
+    font-weight: bold;
+}
+
+.clipboard {
+    border-radius: 30px;
+    padding: 8px;
+    width: 55px;
+    height: 25px;
+}

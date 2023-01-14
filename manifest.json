@@ -1,0 +1,23 @@
+{
+    "name": "Color Palatte",
+    "description": "This extension allows to know the color code of any object selected on the screen",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background":{
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "options_page":"options.html",
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "16":"/Images/icon.png",
+        "32":"/Images/icon.png",
+        "48":"/Images/icon.png"
+    }
+}
